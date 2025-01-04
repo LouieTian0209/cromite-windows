@@ -1,0 +1,1 @@
+D:\QtIFW-4.8.1\bin\binarycreator.exe -c .\config\config.xml -p .\packages\ CromiteInstall.exe

@@ -10,7 +10,7 @@
 #define MyAppAssocExt ".myp"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
 #define MyAppProjectLocation "D:\Git Repo\cromite-windows"
-#define MyAppSourceLocation MyAppProjectLocation + "\source_data"
+#define MyAppSourceLocation MyAppProjectLocation + "\QtIFW\packages\com.vendor.root\data"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.

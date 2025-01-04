@@ -14,420 +14,414 @@
                     </Component>
                 </Directory>
             </Directory>
-            <Directory Id="SOURCE_DATA" Name="source_data">
-                <Component Id="_131.0.6778.205.MANIFEST" DiskId="1" Guid="963ABDE1-2EBE-42E6-BF47-B7449D8ED502">
-                    <File Id="_131.0.6778.205.MANIFEST" Name="131.0.6778.205.manifest" Source="source_data\131.0.6778.205.manifest" />
+            <Directory Id="DATA" Name="data">
+                <Component Id="_131.0.6778.205.MANIFEST" DiskId="1" Guid="1E9CDE79-A69B-414E-B4B3-36464BEAA5D7">
+                    <File Id="_131.0.6778.205.MANIFEST" Name="131.0.6778.205.manifest" Source="QtIFW\packages\com.vendor.root\data\131.0.6778.205.manifest" />
                 </Component>
-                <Component Id="CHROME.DLL" DiskId="1" Guid="0E5158DA-1A30-4DF3-9AB9-DE64F91990F2">
-                    <File Id="CHROME.DLL" Name="chrome.dll" Source="source_data\chrome.dll" />
+                <Component Id="CHROME.DLL" DiskId="1" Guid="C7A3E3EB-8949-47CF-828E-02EDD48E8186">
+                    <File Id="CHROME.DLL" Name="chrome.dll" Source="QtIFW\packages\com.vendor.root\data\chrome.dll" />
                 </Component>
-                <Component Id="CHROME.EXE" DiskId="1" Guid="7F2E4B81-1084-410A-B016-7D668A466288">
-                    <File Id="CHROME.EXE" Name="chrome.exe" Source="source_data\chrome.exe">
-                        <Shortcut Id="desktopShortcut" Directory="DesktopFolder" Name="Cromite" WorkingDirectory="INSTALLDIR" Advertise="yes" Icon="DesktopIcon.exe" IconIndex="0" />
-                        <Shortcut Id="ExeShortcut" Directory="ProgramMenuDir" Name="Cromite" Advertise="yes" Icon="StartMenuIcon.exe" IconIndex="0" />
-                    </File>
+                <Component Id="CHROME.EXE" DiskId="1" Guid="5FDA6E3B-ED28-4230-8069-CB869E9B3F84">
+                    <File Id="CHROME.EXE" Name="chrome.exe" Source="QtIFW\packages\com.vendor.root\data\chrome.exe" />
                 </Component>
-                <Component Id="CHROME_100_PERCENT.PAK" DiskId="1" Guid="8EA7148A-94AE-44C2-B078-D83941B62FF0">
-                    <File Id="CHROME_100_PERCENT.PAK" Name="chrome_100_percent.pak" Source="source_data\chrome_100_percent.pak" />
+                <Component Id="CHROME_100_PERCENT.PAK" DiskId="1" Guid="92D618E8-806D-4AAF-BDB6-74F0637C0205">
+                    <File Id="CHROME_100_PERCENT.PAK" Name="chrome_100_percent.pak" Source="QtIFW\packages\com.vendor.root\data\chrome_100_percent.pak" />
                 </Component>
-                <Component Id="CHROME_200_PERCENT.PAK" DiskId="1" Guid="9EED2E0B-6FD3-4EFE-89F6-5BB402EA8CA0">
-                    <File Id="CHROME_200_PERCENT.PAK" Name="chrome_200_percent.pak" Source="source_data\chrome_200_percent.pak" />
+                <Component Id="CHROME_200_PERCENT.PAK" DiskId="1" Guid="91142342-360E-43D6-B131-AD2190D85A47">
+                    <File Id="CHROME_200_PERCENT.PAK" Name="chrome_200_percent.pak" Source="QtIFW\packages\com.vendor.root\data\chrome_200_percent.pak" />
                 </Component>
-                <Component Id="CHROME_ELF.DLL" DiskId="1" Guid="8B38EA22-362C-436E-AA86-A5C27AD4D555">
-                    <File Id="CHROME_ELF.DLL" Name="chrome_elf.dll" Source="source_data\chrome_elf.dll" />
+                <Component Id="CHROME_ELF.DLL" DiskId="1" Guid="34FA106C-79F7-4AB5-9BB9-2077CA6DBE7E">
+                    <File Id="CHROME_ELF.DLL" Name="chrome_elf.dll" Source="QtIFW\packages\com.vendor.root\data\chrome_elf.dll" />
                 </Component>
-                <Component Id="CHROME_PROXY.EXE" DiskId="1" Guid="AE5E7201-8773-40BC-A15E-FA4A9101F1B4">
-                    <File Id="CHROME_PROXY.EXE" Name="chrome_proxy.exe" Source="source_data\chrome_proxy.exe" />
+                <Component Id="CHROME_PROXY.EXE" DiskId="1" Guid="165E3324-8077-4CD4-B1B3-2ED89F90E7C7">
+                    <File Id="CHROME_PROXY.EXE" Name="chrome_proxy.exe" Source="QtIFW\packages\com.vendor.root\data\chrome_proxy.exe" />
                 </Component>
-                <Component Id="CHROME_PWA_LAUNCHER.EXE" DiskId="1" Guid="53F978A1-1907-4FA3-BE0B-010B20BCE7F0">
-                    <File Id="CHROME_PWA_LAUNCHER.EXE" Name="chrome_pwa_launcher.exe" Source="source_data\chrome_pwa_launcher.exe" />
+                <Component Id="CHROME_PWA_LAUNCHER.EXE" DiskId="1" Guid="A88B6DF9-7DA2-4278-8605-D6363E708A80">
+                    <File Id="CHROME_PWA_LAUNCHER.EXE" Name="chrome_pwa_launcher.exe" Source="QtIFW\packages\com.vendor.root\data\chrome_pwa_launcher.exe" />
                 </Component>
-                <Component Id="CHROME_WER.DLL" DiskId="1" Guid="245EE866-F2E8-4A6C-A777-710EF299544B">
-                    <File Id="CHROME_WER.DLL" Name="chrome_wer.dll" Source="source_data\chrome_wer.dll" />
+                <Component Id="CHROME_WER.DLL" DiskId="1" Guid="CD5E2B5A-801A-4F02-8CB7-6B36FBB5CDD4">
+                    <File Id="CHROME_WER.DLL" Name="chrome_wer.dll" Source="QtIFW\packages\com.vendor.root\data\chrome_wer.dll" />
                 </Component>
-                <Component Id="D3DCOMPILER_47.DLL" DiskId="1" Guid="EE9DFCCC-4AD3-4834-B6BA-EAFC42E86D61">
-                    <File Id="D3DCOMPILER_47.DLL" Name="d3dcompiler_47.dll" Source="source_data\d3dcompiler_47.dll" />
+                <Component Id="D3DCOMPILER_47.DLL" DiskId="1" Guid="6F509C52-E3D7-4C17-A923-99036D1AA49C">
+                    <File Id="D3DCOMPILER_47.DLL" Name="d3dcompiler_47.dll" Source="QtIFW\packages\com.vendor.root\data\d3dcompiler_47.dll" />
                 </Component>
-                <Component Id="ELEVATION_SERVICE.EXE" DiskId="1" Guid="CAE251B5-F918-4B72-8F7B-47B64C92CF4B">
-                    <File Id="ELEVATION_SERVICE.EXE" Name="elevation_service.exe" Source="source_data\elevation_service.exe" />
+                <Component Id="ELEVATION_SERVICE.EXE" DiskId="1" Guid="114B20B5-352D-43CB-90C9-2B7C778A35D9">
+                    <File Id="ELEVATION_SERVICE.EXE" Name="elevation_service.exe" Source="QtIFW\packages\com.vendor.root\data\elevation_service.exe" />
                 </Component>
-                <Component Id="FIRST_RUN" DiskId="1" Guid="C3B9E943-AC8F-4C8B-897A-106B36D5982E">
-                    <File Id="FIRST_RUN" Name="First Run" Source="source_data\First Run" />
+                <Component Id="FIRST_RUN" DiskId="1" Guid="082F8303-1014-44FF-8D15-D10AB17C5D2F">
+                    <File Id="FIRST_RUN" Name="First Run" Source="QtIFW\packages\com.vendor.root\data\First Run" />
                 </Component>
-                <Component Id="HEADLESS_LIB_DATA.PAK" DiskId="1" Guid="5861BBBE-72F7-4051-8227-07EF67934759">
-                    <File Id="HEADLESS_LIB_DATA.PAK" Name="headless_lib_data.pak" Source="source_data\headless_lib_data.pak" />
+                <Component Id="HEADLESS_LIB_DATA.PAK" DiskId="1" Guid="73446AC6-08C4-4080-B7CC-837FEB780D2E">
+                    <File Id="HEADLESS_LIB_DATA.PAK" Name="headless_lib_data.pak" Source="QtIFW\packages\com.vendor.root\data\headless_lib_data.pak" />
                 </Component>
-                <Component Id="ICUDTL.DAT" DiskId="1" Guid="A83E77F5-8D53-49AA-B7AC-ECDAB1AA6189">
-                    <File Id="ICUDTL.DAT" Name="icudtl.dat" Source="source_data\icudtl.dat" />
+                <Component Id="ICUDTL.DAT" DiskId="1" Guid="077A3EC8-C4DE-4466-8B98-DB93B6B1EC4C">
+                    <File Id="ICUDTL.DAT" Name="icudtl.dat" Source="QtIFW\packages\com.vendor.root\data\icudtl.dat" />
                 </Component>
-                <Component Id="LIBEGL.DLL" DiskId="1" Guid="DC97DDCF-9D6A-48B4-A76E-F25AC3182957">
-                    <File Id="LIBEGL.DLL" Name="libEGL.dll" Source="source_data\libEGL.dll" />
+                <Component Id="LIBEGL.DLL" DiskId="1" Guid="7DD47806-22F3-4144-8315-22B1FDF0E0B0">
+                    <File Id="LIBEGL.DLL" Name="libEGL.dll" Source="QtIFW\packages\com.vendor.root\data\libEGL.dll" />
                 </Component>
-                <Component Id="LIBGLESV2.DLL" DiskId="1" Guid="9338F513-55F5-4D7E-A687-99C6BA3481FB">
-                    <File Id="LIBGLESV2.DLL" Name="libGLESv2.dll" Source="source_data\libGLESv2.dll" />
+                <Component Id="LIBGLESV2.DLL" DiskId="1" Guid="859071E4-4E3D-4A89-8848-A336C7E4EDCD">
+                    <File Id="LIBGLESV2.DLL" Name="libGLESv2.dll" Source="QtIFW\packages\com.vendor.root\data\libGLESv2.dll" />
                 </Component>
-                <Component Id="LOGO.PNG" DiskId="1" Guid="97AB69EB-D262-4AB8-AC4F-0D1B1CC7429D">
-                    <File Id="LOGO.PNG" Name="Logo.png" Source="source_data\Logo.png" />
+                <Component Id="LOGO.PNG" DiskId="1" Guid="2D0B8AA9-3D72-46EF-B9C8-B61DA0545F50">
+                    <File Id="LOGO.PNG" Name="Logo.png" Source="QtIFW\packages\com.vendor.root\data\Logo.png" />
                 </Component>
-                <Component Id="NOTIFICATION_HELPER.EXE" DiskId="1" Guid="76828718-7C9D-41F5-A258-71A9A17C2BD9">
-                    <File Id="NOTIFICATION_HELPER.EXE" Name="notification_helper.exe" Source="source_data\notification_helper.exe" />
+                <Component Id="NOTIFICATION_HELPER.EXE" DiskId="1" Guid="D6DC0F41-CED7-432C-BF09-C4B6ACB8E089">
+                    <File Id="NOTIFICATION_HELPER.EXE" Name="notification_helper.exe" Source="QtIFW\packages\com.vendor.root\data\notification_helper.exe" />
                 </Component>
-                <Component Id="RESOURCES.PAK" DiskId="1" Guid="9FEA3842-F1F6-4F01-A33A-AA70E72684D6">
-                    <File Id="RESOURCES.PAK" Name="resources.pak" Source="source_data\resources.pak" />
+                <Component Id="RESOURCES.PAK" DiskId="1" Guid="9A6C3D87-8AEE-45E3-B10A-81D4C8930E50">
+                    <File Id="RESOURCES.PAK" Name="resources.pak" Source="QtIFW\packages\com.vendor.root\data\resources.pak" />
                 </Component>
-                <Component Id="SMALLLOGO.PNG" DiskId="1" Guid="714009B9-6DAE-4962-AA89-5759DE0B4013">
-                    <File Id="SMALLLOGO.PNG" Name="SmallLogo.png" Source="source_data\SmallLogo.png" />
+                <Component Id="SMALLLOGO.PNG" DiskId="1" Guid="7BDC179C-863A-4F05-A9C2-CF6DFB21AB61">
+                    <File Id="SMALLLOGO.PNG" Name="SmallLogo.png" Source="QtIFW\packages\com.vendor.root\data\SmallLogo.png" />
                 </Component>
-                <Component Id="SNAPSHOT_BLOB.BIN" DiskId="1" Guid="CA53D6EA-70C0-4072-A8ED-77E1B91ABAF6">
-                    <File Id="SNAPSHOT_BLOB.BIN" Name="snapshot_blob.bin" Source="source_data\snapshot_blob.bin" />
+                <Component Id="SNAPSHOT_BLOB.BIN" DiskId="1" Guid="C296F133-51FA-4589-A946-50F27EADBA5A">
+                    <File Id="SNAPSHOT_BLOB.BIN" Name="snapshot_blob.bin" Source="QtIFW\packages\com.vendor.root\data\snapshot_blob.bin" />
                 </Component>
-                <Component Id="VKICD_MOCK_ICD.DLL" DiskId="1" Guid="623555E6-E33A-4353-8F7D-C3F96299DA14">
-                    <File Id="VKICD_MOCK_ICD.DLL" Name="VkICD_mock_icd.dll" Source="source_data\VkICD_mock_icd.dll" />
+                <Component Id="VKICD_MOCK_ICD.DLL" DiskId="1" Guid="F342CFB2-1D6C-48DC-8CE6-75E235B3693A">
+                    <File Id="VKICD_MOCK_ICD.DLL" Name="VkICD_mock_icd.dll" Source="QtIFW\packages\com.vendor.root\data\VkICD_mock_icd.dll" />
                 </Component>
-                <Component Id="VKLAYER_KHRONOS_VALIDATION.DLL" DiskId="1" Guid="CD60E558-1000-4A4C-981D-28CB6214DCDA">
-                    <File Id="VKLAYER_KHRONOS_VALIDATION.DLL" Name="VkLayer_khronos_validation.dll" Source="source_data\VkLayer_khronos_validation.dll" />
+                <Component Id="VKLAYER_KHRONOS_VALIDATION.DLL" DiskId="1" Guid="3089B1BC-69AD-47CD-8F27-8A3E0DD8A123">
+                    <File Id="VKLAYER_KHRONOS_VALIDATION.DLL" Name="VkLayer_khronos_validation.dll" Source="QtIFW\packages\com.vendor.root\data\VkLayer_khronos_validation.dll" />
                 </Component>
-                <Component Id="VK_SWIFTSHADER.DLL" DiskId="1" Guid="0A67BBB2-BAFD-4EE0-BBF1-A8E0BDBFA6A5">
-                    <File Id="VK_SWIFTSHADER.DLL" Name="vk_swiftshader.dll" Source="source_data\vk_swiftshader.dll" />
+                <Component Id="VK_SWIFTSHADER.DLL" DiskId="1" Guid="42011C15-1AD9-4596-A288-C75666D55CC2">
+                    <File Id="VK_SWIFTSHADER.DLL" Name="vk_swiftshader.dll" Source="QtIFW\packages\com.vendor.root\data\vk_swiftshader.dll" />
                 </Component>
-                <Component Id="VULKAN_1.DLL" DiskId="1" Guid="7C57DC69-402B-4B89-B0A8-F1E97F893A64">
-                    <File Id="VULKAN_1.DLL" Name="vulkan-1.dll" Source="source_data\vulkan-1.dll" />
+                <Component Id="VULKAN_1.DLL" DiskId="1" Guid="A8321E9D-350C-4F73-9B28-DACC28532A0A">
+                    <File Id="VULKAN_1.DLL" Name="vulkan-1.dll" Source="QtIFW\packages\com.vendor.root\data\vulkan-1.dll" />
                 </Component>
                 <Directory Id="LOCALES" Name="locales">
-                    <Component Id="AF.PAK" DiskId="1" Guid="7BC44B7C-1E2F-47C0-83AD-742D96235449">
-                        <File Id="AF.PAK" Name="af.pak" Source="source_data\locales\af.pak" />
+                    <Component Id="AF.PAK" DiskId="1" Guid="026EABFB-4AA1-4DBC-A54F-E9B82E8C84EB">
+                        <File Id="AF.PAK" Name="af.pak" Source="QtIFW\packages\com.vendor.root\data\locales\af.pak" />
                     </Component>
-                    <Component Id="AF.PAK.INFO" DiskId="1" Guid="B1CE40EC-9D81-4C76-A32B-CC1ACD43D27D">
-                        <File Id="AF.PAK.INFO" Name="af.pak.info" Source="source_data\locales\af.pak.info" />
+                    <Component Id="AF.PAK.INFO" DiskId="1" Guid="02CE825C-711B-44F3-97E4-09163BADF60B">
+                        <File Id="AF.PAK.INFO" Name="af.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\af.pak.info" />
                     </Component>
-                    <Component Id="AM.PAK" DiskId="1" Guid="6DC8C4EE-E4A6-4C8B-B564-9E8B12C63930">
-                        <File Id="AM.PAK" Name="am.pak" Source="source_data\locales\am.pak" />
+                    <Component Id="AM.PAK" DiskId="1" Guid="5794DEFC-9828-46E3-BCAF-463994115DAA">
+                        <File Id="AM.PAK" Name="am.pak" Source="QtIFW\packages\com.vendor.root\data\locales\am.pak" />
                     </Component>
-                    <Component Id="AM.PAK.INFO" DiskId="1" Guid="1355090C-3917-4AF0-897A-A1B1137B9B44">
-                        <File Id="AM.PAK.INFO" Name="am.pak.info" Source="source_data\locales\am.pak.info" />
+                    <Component Id="AM.PAK.INFO" DiskId="1" Guid="C6E97C69-679B-474A-8B95-8B891DEAC5E5">
+                        <File Id="AM.PAK.INFO" Name="am.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\am.pak.info" />
                     </Component>
-                    <Component Id="AR.PAK" DiskId="1" Guid="38C10BB2-2B11-4265-B3A6-65FFDB52822B">
-                        <File Id="AR.PAK" Name="ar.pak" Source="source_data\locales\ar.pak" />
+                    <Component Id="AR.PAK" DiskId="1" Guid="B26F561E-2833-4E41-A1A0-9C661C0CB5C3">
+                        <File Id="AR.PAK" Name="ar.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ar.pak" />
                     </Component>
-                    <Component Id="AR.PAK.INFO" DiskId="1" Guid="8B860C99-8356-4013-9904-18091645526F">
-                        <File Id="AR.PAK.INFO" Name="ar.pak.info" Source="source_data\locales\ar.pak.info" />
+                    <Component Id="AR.PAK.INFO" DiskId="1" Guid="5D8DE36E-6823-4D77-AFEF-4BC248E1BE37">
+                        <File Id="AR.PAK.INFO" Name="ar.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ar.pak.info" />
                     </Component>
-                    <Component Id="BG.PAK" DiskId="1" Guid="E498030A-B9F6-4CAB-86A3-C04EF212C9DF">
-                        <File Id="BG.PAK" Name="bg.pak" Source="source_data\locales\bg.pak" />
+                    <Component Id="BG.PAK" DiskId="1" Guid="54F2E139-51D5-454B-9E1F-093CD81988C3">
+                        <File Id="BG.PAK" Name="bg.pak" Source="QtIFW\packages\com.vendor.root\data\locales\bg.pak" />
                     </Component>
-                    <Component Id="BG.PAK.INFO" DiskId="1" Guid="9B5D88DB-96FB-4950-81B0-F9E73098621E">
-                        <File Id="BG.PAK.INFO" Name="bg.pak.info" Source="source_data\locales\bg.pak.info" />
+                    <Component Id="BG.PAK.INFO" DiskId="1" Guid="05CE0675-6902-4CB9-B60C-44B592E9BD4C">
+                        <File Id="BG.PAK.INFO" Name="bg.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\bg.pak.info" />
                     </Component>
-                    <Component Id="BN.PAK" DiskId="1" Guid="EA6F7EFF-36F2-483E-9FA2-3B317DA1B5FA">
-                        <File Id="BN.PAK" Name="bn.pak" Source="source_data\locales\bn.pak" />
+                    <Component Id="BN.PAK" DiskId="1" Guid="77138CCC-94E4-4F98-9DB0-09088095D69D">
+                        <File Id="BN.PAK" Name="bn.pak" Source="QtIFW\packages\com.vendor.root\data\locales\bn.pak" />
                     </Component>
-                    <Component Id="BN.PAK.INFO" DiskId="1" Guid="4522C32F-C36B-4926-8618-C15177D9DA46">
-                        <File Id="BN.PAK.INFO" Name="bn.pak.info" Source="source_data\locales\bn.pak.info" />
+                    <Component Id="BN.PAK.INFO" DiskId="1" Guid="2A0D574F-A8AC-4931-ACEA-7DAE19BC726B">
+                        <File Id="BN.PAK.INFO" Name="bn.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\bn.pak.info" />
                     </Component>
-                    <Component Id="CA.PAK" DiskId="1" Guid="2DFFCE5E-0B10-494F-B910-BDE8C01ED638">
-                        <File Id="CA.PAK" Name="ca.pak" Source="source_data\locales\ca.pak" />
+                    <Component Id="CA.PAK" DiskId="1" Guid="F171D38A-F410-468E-B6DE-CD91962E1ED4">
+                        <File Id="CA.PAK" Name="ca.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ca.pak" />
                     </Component>
-                    <Component Id="CA.PAK.INFO" DiskId="1" Guid="4C8A6F71-B7D0-4DE8-A330-E5380711EE40">
-                        <File Id="CA.PAK.INFO" Name="ca.pak.info" Source="source_data\locales\ca.pak.info" />
+                    <Component Id="CA.PAK.INFO" DiskId="1" Guid="203FCF1E-E27A-40FB-8AB4-4CDBCCEA48E0">
+                        <File Id="CA.PAK.INFO" Name="ca.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ca.pak.info" />
                     </Component>
-                    <Component Id="CS.PAK" DiskId="1" Guid="8294DD08-9674-4924-873A-9C33E21D4E32">
-                        <File Id="CS.PAK" Name="cs.pak" Source="source_data\locales\cs.pak" />
+                    <Component Id="CS.PAK" DiskId="1" Guid="F9EF8C62-8E55-4E48-8D31-06AF54E1CE4B">
+                        <File Id="CS.PAK" Name="cs.pak" Source="QtIFW\packages\com.vendor.root\data\locales\cs.pak" />
                     </Component>
-                    <Component Id="CS.PAK.INFO" DiskId="1" Guid="D91B5C1D-DA76-45FF-A72C-C79B6358DE4C">
-                        <File Id="CS.PAK.INFO" Name="cs.pak.info" Source="source_data\locales\cs.pak.info" />
+                    <Component Id="CS.PAK.INFO" DiskId="1" Guid="B827EA8E-94BB-4B7A-94AC-BB4B58B4BCD5">
+                        <File Id="CS.PAK.INFO" Name="cs.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\cs.pak.info" />
                     </Component>
-                    <Component Id="DA.PAK" DiskId="1" Guid="D96D3475-B5E7-400A-B5E4-37BB52A64944">
-                        <File Id="DA.PAK" Name="da.pak" Source="source_data\locales\da.pak" />
+                    <Component Id="DA.PAK" DiskId="1" Guid="4542714C-B44A-4EFB-B7CC-11A58AC4E7B0">
+                        <File Id="DA.PAK" Name="da.pak" Source="QtIFW\packages\com.vendor.root\data\locales\da.pak" />
                     </Component>
-                    <Component Id="DA.PAK.INFO" DiskId="1" Guid="3B8967A3-0978-4B91-B765-AA9A9EF6ECA6">
-                        <File Id="DA.PAK.INFO" Name="da.pak.info" Source="source_data\locales\da.pak.info" />
+                    <Component Id="DA.PAK.INFO" DiskId="1" Guid="B4176527-F7E7-451B-8249-848B0A7C3E2C">
+                        <File Id="DA.PAK.INFO" Name="da.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\da.pak.info" />
                     </Component>
-                    <Component Id="DE.PAK" DiskId="1" Guid="95DFDD0C-4771-4ABC-9423-5D01159F9DED">
-                        <File Id="DE.PAK" Name="de.pak" Source="source_data\locales\de.pak" />
+                    <Component Id="DE.PAK" DiskId="1" Guid="C7017344-563F-4910-8957-22D48244ACA9">
+                        <File Id="DE.PAK" Name="de.pak" Source="QtIFW\packages\com.vendor.root\data\locales\de.pak" />
                     </Component>
-                    <Component Id="DE.PAK.INFO" DiskId="1" Guid="840690C9-C945-4D5D-8371-A259AE7BCCAB">
-                        <File Id="DE.PAK.INFO" Name="de.pak.info" Source="source_data\locales\de.pak.info" />
+                    <Component Id="DE.PAK.INFO" DiskId="1" Guid="E5763DE8-7E03-4110-8D1F-A405342CEA65">
+                        <File Id="DE.PAK.INFO" Name="de.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\de.pak.info" />
                     </Component>
-                    <Component Id="EL.PAK" DiskId="1" Guid="AD01EEB2-4651-4366-8A87-857F74F4186C">
-                        <File Id="EL.PAK" Name="el.pak" Source="source_data\locales\el.pak" />
+                    <Component Id="EL.PAK" DiskId="1" Guid="E1A6F977-C79F-4B41-8096-348454F00E98">
+                        <File Id="EL.PAK" Name="el.pak" Source="QtIFW\packages\com.vendor.root\data\locales\el.pak" />
                     </Component>
-                    <Component Id="EL.PAK.INFO" DiskId="1" Guid="68029BA7-E93C-432F-B730-8754333D2419">
-                        <File Id="EL.PAK.INFO" Name="el.pak.info" Source="source_data\locales\el.pak.info" />
+                    <Component Id="EL.PAK.INFO" DiskId="1" Guid="DE419C28-A977-4A92-98DF-9030AE0FEA11">
+                        <File Id="EL.PAK.INFO" Name="el.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\el.pak.info" />
                     </Component>
-                    <Component Id="EN_GB.PAK" DiskId="1" Guid="59F332D5-34ED-48E5-B8FF-52183D2773CE">
-                        <File Id="EN_GB.PAK" Name="en-GB.pak" Source="source_data\locales\en-GB.pak" />
+                    <Component Id="EN_GB.PAK" DiskId="1" Guid="1A8121EC-AD8B-4890-A1E2-093C4E31EA80">
+                        <File Id="EN_GB.PAK" Name="en-GB.pak" Source="QtIFW\packages\com.vendor.root\data\locales\en-GB.pak" />
                     </Component>
-                    <Component Id="EN_GB.PAK.INFO" DiskId="1" Guid="5E1E19FB-DFCA-4F92-9501-F68F1417B79D">
-                        <File Id="EN_GB.PAK.INFO" Name="en-GB.pak.info" Source="source_data\locales\en-GB.pak.info" />
+                    <Component Id="EN_GB.PAK.INFO" DiskId="1" Guid="E74B15CB-2D91-4002-969F-985E367B5066">
+                        <File Id="EN_GB.PAK.INFO" Name="en-GB.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\en-GB.pak.info" />
                     </Component>
-                    <Component Id="EN_US.PAK" DiskId="1" Guid="0CBBEBCF-0674-482B-8D9F-8C13C7FDFF76">
-                        <File Id="EN_US.PAK" Name="en-US.pak" Source="source_data\locales\en-US.pak" />
+                    <Component Id="EN_US.PAK" DiskId="1" Guid="920AC335-04BA-4413-9AFE-41F38098593E">
+                        <File Id="EN_US.PAK" Name="en-US.pak" Source="QtIFW\packages\com.vendor.root\data\locales\en-US.pak" />
                     </Component>
-                    <Component Id="EN_US.PAK.INFO" DiskId="1" Guid="58A7B64D-79C5-404D-9114-D3A93167829B">
-                        <File Id="EN_US.PAK.INFO" Name="en-US.pak.info" Source="source_data\locales\en-US.pak.info" />
+                    <Component Id="EN_US.PAK.INFO" DiskId="1" Guid="50BF93F3-824C-4680-BDE1-2B279C89A32D">
+                        <File Id="EN_US.PAK.INFO" Name="en-US.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\en-US.pak.info" />
                     </Component>
-                    <Component Id="ES_419.PAK" DiskId="1" Guid="6637601A-1017-40ED-A47A-AA2EAEDB480B">
-                        <File Id="ES_419.PAK" Name="es-419.pak" Source="source_data\locales\es-419.pak" />
+                    <Component Id="ES_419.PAK" DiskId="1" Guid="A3C5E651-F4E8-4428-ACD8-8E5FECED792E">
+                        <File Id="ES_419.PAK" Name="es-419.pak" Source="QtIFW\packages\com.vendor.root\data\locales\es-419.pak" />
                     </Component>
-                    <Component Id="ES_419.PAK.INFO" DiskId="1" Guid="46FA280C-72F0-4D95-8EB9-A3C35F51E1ED">
-                        <File Id="ES_419.PAK.INFO" Name="es-419.pak.info" Source="source_data\locales\es-419.pak.info" />
+                    <Component Id="ES_419.PAK.INFO" DiskId="1" Guid="E62AA159-5819-417C-8666-4060F3B85B35">
+                        <File Id="ES_419.PAK.INFO" Name="es-419.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\es-419.pak.info" />
                     </Component>
-                    <Component Id="ES.PAK" DiskId="1" Guid="18295449-5CC7-45E6-AB90-8F84C9099BE4">
-                        <File Id="ES.PAK" Name="es.pak" Source="source_data\locales\es.pak" />
+                    <Component Id="ES.PAK" DiskId="1" Guid="C3FB0C67-9B19-4192-BDCD-196F98452535">
+                        <File Id="ES.PAK" Name="es.pak" Source="QtIFW\packages\com.vendor.root\data\locales\es.pak" />
                     </Component>
-                    <Component Id="ES.PAK.INFO" DiskId="1" Guid="249C109F-86A7-4DF7-AB43-BA6FBE4484F1">
-                        <File Id="ES.PAK.INFO" Name="es.pak.info" Source="source_data\locales\es.pak.info" />
+                    <Component Id="ES.PAK.INFO" DiskId="1" Guid="6B517A16-A21E-4874-ACA1-A9D8483B43B2">
+                        <File Id="ES.PAK.INFO" Name="es.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\es.pak.info" />
                     </Component>
-                    <Component Id="ET.PAK" DiskId="1" Guid="9EFAE41C-8D40-4740-8DBB-1C7290127111">
-                        <File Id="ET.PAK" Name="et.pak" Source="source_data\locales\et.pak" />
+                    <Component Id="ET.PAK" DiskId="1" Guid="82ABBC63-8C74-410C-AFE6-93814B46EF97">
+                        <File Id="ET.PAK" Name="et.pak" Source="QtIFW\packages\com.vendor.root\data\locales\et.pak" />
                     </Component>
-                    <Component Id="ET.PAK.INFO" DiskId="1" Guid="5F0AF768-5174-4062-9F8A-769509864916">
-                        <File Id="ET.PAK.INFO" Name="et.pak.info" Source="source_data\locales\et.pak.info" />
+                    <Component Id="ET.PAK.INFO" DiskId="1" Guid="08EA5E73-BE85-44EC-A703-EAE09A0DEC07">
+                        <File Id="ET.PAK.INFO" Name="et.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\et.pak.info" />
                     </Component>
-                    <Component Id="FA.PAK" DiskId="1" Guid="A1BDFB44-1EE2-44F3-AADE-E7D20059B1BC">
-                        <File Id="FA.PAK" Name="fa.pak" Source="source_data\locales\fa.pak" />
+                    <Component Id="FA.PAK" DiskId="1" Guid="648F549C-72CE-4E35-85E9-7A6F26D0B476">
+                        <File Id="FA.PAK" Name="fa.pak" Source="QtIFW\packages\com.vendor.root\data\locales\fa.pak" />
                     </Component>
-                    <Component Id="FA.PAK.INFO" DiskId="1" Guid="F0416FF1-301C-492B-BA02-EE9CCB776759">
-                        <File Id="FA.PAK.INFO" Name="fa.pak.info" Source="source_data\locales\fa.pak.info" />
+                    <Component Id="FA.PAK.INFO" DiskId="1" Guid="4FD083A2-3A72-41AB-BECB-57FECE20ADB0">
+                        <File Id="FA.PAK.INFO" Name="fa.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\fa.pak.info" />
                     </Component>
-                    <Component Id="FI.PAK" DiskId="1" Guid="DE70CB6A-1521-4E6A-AEDA-E313DF2CAD77">
-                        <File Id="FI.PAK" Name="fi.pak" Source="source_data\locales\fi.pak" />
+                    <Component Id="FI.PAK" DiskId="1" Guid="33614FA5-B547-4DDB-B848-0D7AF5A9A986">
+                        <File Id="FI.PAK" Name="fi.pak" Source="QtIFW\packages\com.vendor.root\data\locales\fi.pak" />
                     </Component>
-                    <Component Id="FI.PAK.INFO" DiskId="1" Guid="30831E95-0F74-4E9A-A690-FCF6E638A0C6">
-                        <File Id="FI.PAK.INFO" Name="fi.pak.info" Source="source_data\locales\fi.pak.info" />
+                    <Component Id="FI.PAK.INFO" DiskId="1" Guid="D01987F5-496D-4854-9904-9B2BC379759C">
+                        <File Id="FI.PAK.INFO" Name="fi.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\fi.pak.info" />
                     </Component>
-                    <Component Id="FIL.PAK" DiskId="1" Guid="D1EA4085-14A6-48DD-BD57-FDDEA43B6858">
-                        <File Id="FIL.PAK" Name="fil.pak" Source="source_data\locales\fil.pak" />
+                    <Component Id="FIL.PAK" DiskId="1" Guid="DF18991A-DE76-40D6-985D-F69731197871">
+                        <File Id="FIL.PAK" Name="fil.pak" Source="QtIFW\packages\com.vendor.root\data\locales\fil.pak" />
                     </Component>
-                    <Component Id="FIL.PAK.INFO" DiskId="1" Guid="CA964A18-D3E8-470E-B704-CFAE59B8D064">
-                        <File Id="FIL.PAK.INFO" Name="fil.pak.info" Source="source_data\locales\fil.pak.info" />
+                    <Component Id="FIL.PAK.INFO" DiskId="1" Guid="496DDDF3-41DF-4FF2-ABDE-6C0A985AC8E7">
+                        <File Id="FIL.PAK.INFO" Name="fil.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\fil.pak.info" />
                     </Component>
-                    <Component Id="FR.PAK" DiskId="1" Guid="81BA7BC8-12E3-4557-84C6-914BC735DEF2">
-                        <File Id="FR.PAK" Name="fr.pak" Source="source_data\locales\fr.pak" />
+                    <Component Id="FR.PAK" DiskId="1" Guid="9FD631B1-A973-4DFE-A0A8-03C1D01F6F30">
+                        <File Id="FR.PAK" Name="fr.pak" Source="QtIFW\packages\com.vendor.root\data\locales\fr.pak" />
                     </Component>
-                    <Component Id="FR.PAK.INFO" DiskId="1" Guid="D655AC9B-810E-4F3B-AC30-DCB34377A27A">
-                        <File Id="FR.PAK.INFO" Name="fr.pak.info" Source="source_data\locales\fr.pak.info" />
+                    <Component Id="FR.PAK.INFO" DiskId="1" Guid="6580D88B-61B2-481C-819C-2786B4C66824">
+                        <File Id="FR.PAK.INFO" Name="fr.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\fr.pak.info" />
                     </Component>
-                    <Component Id="GU.PAK" DiskId="1" Guid="C4FA8189-AE50-4ACB-9FB1-F10F13E1F6C5">
-                        <File Id="GU.PAK" Name="gu.pak" Source="source_data\locales\gu.pak" />
+                    <Component Id="GU.PAK" DiskId="1" Guid="55DAD578-F7F9-43C7-AEBE-A9B452D6F818">
+                        <File Id="GU.PAK" Name="gu.pak" Source="QtIFW\packages\com.vendor.root\data\locales\gu.pak" />
                     </Component>
-                    <Component Id="GU.PAK.INFO" DiskId="1" Guid="79D4B582-57CD-4304-BAD1-ECF140A64821">
-                        <File Id="GU.PAK.INFO" Name="gu.pak.info" Source="source_data\locales\gu.pak.info" />
+                    <Component Id="GU.PAK.INFO" DiskId="1" Guid="532855D9-C86A-4DC1-BCE8-C666996E40BB">
+                        <File Id="GU.PAK.INFO" Name="gu.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\gu.pak.info" />
                     </Component>
-                    <Component Id="HE.PAK" DiskId="1" Guid="A4E9D581-813D-4307-BDC4-C87E4E7C43D8">
-                        <File Id="HE.PAK" Name="he.pak" Source="source_data\locales\he.pak" />
+                    <Component Id="HE.PAK" DiskId="1" Guid="5850BD8F-159B-48D9-A9C2-AC3FEE671B13">
+                        <File Id="HE.PAK" Name="he.pak" Source="QtIFW\packages\com.vendor.root\data\locales\he.pak" />
                     </Component>
-                    <Component Id="HE.PAK.INFO" DiskId="1" Guid="172277F1-F573-4F9F-8AD6-2B4012A2B288">
-                        <File Id="HE.PAK.INFO" Name="he.pak.info" Source="source_data\locales\he.pak.info" />
+                    <Component Id="HE.PAK.INFO" DiskId="1" Guid="B0D2DCB5-3CE7-437C-A722-68C23FCB9F70">
+                        <File Id="HE.PAK.INFO" Name="he.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\he.pak.info" />
                     </Component>
-                    <Component Id="HI.PAK" DiskId="1" Guid="820EA479-7962-405C-8686-C6591FDCCD49">
-                        <File Id="HI.PAK" Name="hi.pak" Source="source_data\locales\hi.pak" />
+                    <Component Id="HI.PAK" DiskId="1" Guid="F5EA0BBC-33F5-449E-879B-6DDBB75AE291">
+                        <File Id="HI.PAK" Name="hi.pak" Source="QtIFW\packages\com.vendor.root\data\locales\hi.pak" />
                     </Component>
-                    <Component Id="HI.PAK.INFO" DiskId="1" Guid="110290EA-DEA5-41BD-B810-6E45B73D160B">
-                        <File Id="HI.PAK.INFO" Name="hi.pak.info" Source="source_data\locales\hi.pak.info" />
+                    <Component Id="HI.PAK.INFO" DiskId="1" Guid="0C2A6634-B34F-4078-AEBE-03FEC3BE83AF">
+                        <File Id="HI.PAK.INFO" Name="hi.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\hi.pak.info" />
                     </Component>
-                    <Component Id="HR.PAK" DiskId="1" Guid="C4C2CDE7-5412-4167-A479-E222127DCC14">
-                        <File Id="HR.PAK" Name="hr.pak" Source="source_data\locales\hr.pak" />
+                    <Component Id="HR.PAK" DiskId="1" Guid="14B0BD9B-AF0F-4F2C-8B62-4595ED80BE8D">
+                        <File Id="HR.PAK" Name="hr.pak" Source="QtIFW\packages\com.vendor.root\data\locales\hr.pak" />
                     </Component>
-                    <Component Id="HR.PAK.INFO" DiskId="1" Guid="D6CBFCAB-E95F-4688-A0F0-6D3D51C26EDD">
-                        <File Id="HR.PAK.INFO" Name="hr.pak.info" Source="source_data\locales\hr.pak.info" />
+                    <Component Id="HR.PAK.INFO" DiskId="1" Guid="D50A2CEB-9884-4EBD-969B-21BAE363E783">
+                        <File Id="HR.PAK.INFO" Name="hr.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\hr.pak.info" />
                     </Component>
-                    <Component Id="HU.PAK" DiskId="1" Guid="31DA8B5D-9A9A-45F2-A973-930F01B4DDCB">
-                        <File Id="HU.PAK" Name="hu.pak" Source="source_data\locales\hu.pak" />
+                    <Component Id="HU.PAK" DiskId="1" Guid="D76129DD-AAE7-41F7-823E-5FB33A6A6645">
+                        <File Id="HU.PAK" Name="hu.pak" Source="QtIFW\packages\com.vendor.root\data\locales\hu.pak" />
                     </Component>
-                    <Component Id="HU.PAK.INFO" DiskId="1" Guid="D88B1453-488F-4DEF-99A3-C28409224EEA">
-                        <File Id="HU.PAK.INFO" Name="hu.pak.info" Source="source_data\locales\hu.pak.info" />
+                    <Component Id="HU.PAK.INFO" DiskId="1" Guid="12283A7D-BC8F-451D-9A1B-7B17961C1056">
+                        <File Id="HU.PAK.INFO" Name="hu.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\hu.pak.info" />
                     </Component>
-                    <Component Id="ID.PAK" DiskId="1" Guid="DE9E58C0-E2C2-4B4A-A971-9B1D963FA6A3">
-                        <File Id="ID.PAK" Name="id.pak" Source="source_data\locales\id.pak" />
+                    <Component Id="ID.PAK" DiskId="1" Guid="A1EF6F0E-C6A2-458F-A851-B173EC849C69">
+                        <File Id="ID.PAK" Name="id.pak" Source="QtIFW\packages\com.vendor.root\data\locales\id.pak" />
                     </Component>
-                    <Component Id="ID.PAK.INFO" DiskId="1" Guid="82F14531-59DA-4EC6-93D0-8AC9F0AF589F">
-                        <File Id="ID.PAK.INFO" Name="id.pak.info" Source="source_data\locales\id.pak.info" />
+                    <Component Id="ID.PAK.INFO" DiskId="1" Guid="EBF07054-1E66-4333-88B4-226361EDE845">
+                        <File Id="ID.PAK.INFO" Name="id.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\id.pak.info" />
                     </Component>
-                    <Component Id="IT.PAK" DiskId="1" Guid="D1B747A3-C3B1-48A1-93AB-D7D564D70657">
-                        <File Id="IT.PAK" Name="it.pak" Source="source_data\locales\it.pak" />
+                    <Component Id="IT.PAK" DiskId="1" Guid="1F2FE9BB-DC34-4E55-8399-F61891C077DB">
+                        <File Id="IT.PAK" Name="it.pak" Source="QtIFW\packages\com.vendor.root\data\locales\it.pak" />
                     </Component>
-                    <Component Id="IT.PAK.INFO" DiskId="1" Guid="A7ABEB75-6D10-4D0A-9E19-182198C5F08A">
-                        <File Id="IT.PAK.INFO" Name="it.pak.info" Source="source_data\locales\it.pak.info" />
+                    <Component Id="IT.PAK.INFO" DiskId="1" Guid="E8A26AD5-6E48-441A-A85E-B0F3422710F7">
+                        <File Id="IT.PAK.INFO" Name="it.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\it.pak.info" />
                     </Component>
-                    <Component Id="JA.PAK" DiskId="1" Guid="FE535225-0C2C-4D66-B499-D4860ADDFB1E">
-                        <File Id="JA.PAK" Name="ja.pak" Source="source_data\locales\ja.pak" />
+                    <Component Id="JA.PAK" DiskId="1" Guid="11F93751-5CFB-4471-A3B6-6303155413A1">
+                        <File Id="JA.PAK" Name="ja.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ja.pak" />
                     </Component>
-                    <Component Id="JA.PAK.INFO" DiskId="1" Guid="99A3B5AA-7FFA-4C58-9FB8-997289AF9436">
-                        <File Id="JA.PAK.INFO" Name="ja.pak.info" Source="source_data\locales\ja.pak.info" />
+                    <Component Id="JA.PAK.INFO" DiskId="1" Guid="5B7659D0-AEA5-4A2D-847F-380B9DDB724F">
+                        <File Id="JA.PAK.INFO" Name="ja.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ja.pak.info" />
                     </Component>
-                    <Component Id="KN.PAK" DiskId="1" Guid="1F3FDF5A-50A9-4B2E-82C9-5906E031ED5E">
-                        <File Id="KN.PAK" Name="kn.pak" Source="source_data\locales\kn.pak" />
+                    <Component Id="KN.PAK" DiskId="1" Guid="0D73ADDF-CB49-4263-A225-E8DC65DA2D4B">
+                        <File Id="KN.PAK" Name="kn.pak" Source="QtIFW\packages\com.vendor.root\data\locales\kn.pak" />
                     </Component>
-                    <Component Id="KN.PAK.INFO" DiskId="1" Guid="8A4C4068-5DB0-41F0-AD47-9A5C2A18F5E3">
-                        <File Id="KN.PAK.INFO" Name="kn.pak.info" Source="source_data\locales\kn.pak.info" />
+                    <Component Id="KN.PAK.INFO" DiskId="1" Guid="F7ECD51D-90C6-4CBE-86E5-6CD1545794E9">
+                        <File Id="KN.PAK.INFO" Name="kn.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\kn.pak.info" />
                     </Component>
-                    <Component Id="KO.PAK" DiskId="1" Guid="777B86AE-86B7-4548-B703-BD6C635B6955">
-                        <File Id="KO.PAK" Name="ko.pak" Source="source_data\locales\ko.pak" />
+                    <Component Id="KO.PAK" DiskId="1" Guid="5ACB2CB1-3A37-4B42-9F53-615B1E9263EB">
+                        <File Id="KO.PAK" Name="ko.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ko.pak" />
                     </Component>
-                    <Component Id="KO.PAK.INFO" DiskId="1" Guid="5163F07B-0416-48C3-B9D2-07E9F6CB04A2">
-                        <File Id="KO.PAK.INFO" Name="ko.pak.info" Source="source_data\locales\ko.pak.info" />
+                    <Component Id="KO.PAK.INFO" DiskId="1" Guid="56ED4D36-DA01-47A8-9E71-DDA32A5E9E00">
+                        <File Id="KO.PAK.INFO" Name="ko.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ko.pak.info" />
                     </Component>
-                    <Component Id="LT.PAK" DiskId="1" Guid="970823C4-7FD2-4777-A1DD-B7E2420E30D9">
-                        <File Id="LT.PAK" Name="lt.pak" Source="source_data\locales\lt.pak" />
+                    <Component Id="LT.PAK" DiskId="1" Guid="331B5270-45FF-45A7-A3FF-B2D142CD34AE">
+                        <File Id="LT.PAK" Name="lt.pak" Source="QtIFW\packages\com.vendor.root\data\locales\lt.pak" />
                     </Component>
-                    <Component Id="LT.PAK.INFO" DiskId="1" Guid="323BB548-78D3-455A-840D-AE1BB510943C">
-                        <File Id="LT.PAK.INFO" Name="lt.pak.info" Source="source_data\locales\lt.pak.info" />
+                    <Component Id="LT.PAK.INFO" DiskId="1" Guid="7CB0B272-207A-4249-8DF1-967905C653C1">
+                        <File Id="LT.PAK.INFO" Name="lt.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\lt.pak.info" />
                     </Component>
-                    <Component Id="LV.PAK" DiskId="1" Guid="02392452-A80B-4832-BE36-0541236218D1">
-                        <File Id="LV.PAK" Name="lv.pak" Source="source_data\locales\lv.pak" />
+                    <Component Id="LV.PAK" DiskId="1" Guid="366D3345-713E-4490-AA61-EF3F8FBA1C7E">
+                        <File Id="LV.PAK" Name="lv.pak" Source="QtIFW\packages\com.vendor.root\data\locales\lv.pak" />
                     </Component>
-                    <Component Id="LV.PAK.INFO" DiskId="1" Guid="84A9CC34-5FC5-46B8-A65D-987658AD37EC">
-                        <File Id="LV.PAK.INFO" Name="lv.pak.info" Source="source_data\locales\lv.pak.info" />
+                    <Component Id="LV.PAK.INFO" DiskId="1" Guid="2C1FD8F5-041C-4B7E-8CE7-E7EB6DFA4F35">
+                        <File Id="LV.PAK.INFO" Name="lv.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\lv.pak.info" />
                     </Component>
-                    <Component Id="ML.PAK" DiskId="1" Guid="21BD5F63-2892-4B57-9359-683BD7E91268">
-                        <File Id="ML.PAK" Name="ml.pak" Source="source_data\locales\ml.pak" />
+                    <Component Id="ML.PAK" DiskId="1" Guid="914AB24E-F9FB-4233-9656-D84D8BFCD725">
+                        <File Id="ML.PAK" Name="ml.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ml.pak" />
                     </Component>
-                    <Component Id="ML.PAK.INFO" DiskId="1" Guid="D6A3A15A-1DA4-4147-BF55-20B074CF561D">
-                        <File Id="ML.PAK.INFO" Name="ml.pak.info" Source="source_data\locales\ml.pak.info" />
+                    <Component Id="ML.PAK.INFO" DiskId="1" Guid="3615F225-19AA-4BA5-8528-281AB8D03E37">
+                        <File Id="ML.PAK.INFO" Name="ml.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ml.pak.info" />
                     </Component>
-                    <Component Id="MR.PAK" DiskId="1" Guid="C366A01A-A662-4863-8ABB-250387718217">
-                        <File Id="MR.PAK" Name="mr.pak" Source="source_data\locales\mr.pak" />
+                    <Component Id="MR.PAK" DiskId="1" Guid="36D6AD67-3760-4FA9-8CC1-99196EEFA022">
+                        <File Id="MR.PAK" Name="mr.pak" Source="QtIFW\packages\com.vendor.root\data\locales\mr.pak" />
                     </Component>
-                    <Component Id="MR.PAK.INFO" DiskId="1" Guid="C20AC41E-4FCB-4CA9-BEE3-AEDDA607A6B3">
-                        <File Id="MR.PAK.INFO" Name="mr.pak.info" Source="source_data\locales\mr.pak.info" />
+                    <Component Id="MR.PAK.INFO" DiskId="1" Guid="F4855537-CC54-4074-9B6C-96DA48928885">
+                        <File Id="MR.PAK.INFO" Name="mr.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\mr.pak.info" />
                     </Component>
-                    <Component Id="MS.PAK" DiskId="1" Guid="15AECC43-BD75-4665-BEE5-F4E5B10CFFF3">
-                        <File Id="MS.PAK" Name="ms.pak" Source="source_data\locales\ms.pak" />
+                    <Component Id="MS.PAK" DiskId="1" Guid="C594DE57-00B6-46EE-948B-34C37AD3FF6E">
+                        <File Id="MS.PAK" Name="ms.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ms.pak" />
                     </Component>
-                    <Component Id="MS.PAK.INFO" DiskId="1" Guid="8123E5C6-95FF-4E20-AC51-A7D2C67D7276">
-                        <File Id="MS.PAK.INFO" Name="ms.pak.info" Source="source_data\locales\ms.pak.info" />
+                    <Component Id="MS.PAK.INFO" DiskId="1" Guid="F435ABA0-3E1C-416C-8F55-FAA5339BAF7C">
+                        <File Id="MS.PAK.INFO" Name="ms.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ms.pak.info" />
                     </Component>
-                    <Component Id="NB.PAK" DiskId="1" Guid="67DBF0CC-F088-4FAA-AAB0-E9274508E3BD">
-                        <File Id="NB.PAK" Name="nb.pak" Source="source_data\locales\nb.pak" />
+                    <Component Id="NB.PAK" DiskId="1" Guid="FB23D250-7331-4471-A03A-54BC58B50B37">
+                        <File Id="NB.PAK" Name="nb.pak" Source="QtIFW\packages\com.vendor.root\data\locales\nb.pak" />
                     </Component>
-                    <Component Id="NB.PAK.INFO" DiskId="1" Guid="C77F902A-5923-4D87-9C83-1D0A1C4AD783">
-                        <File Id="NB.PAK.INFO" Name="nb.pak.info" Source="source_data\locales\nb.pak.info" />
+                    <Component Id="NB.PAK.INFO" DiskId="1" Guid="3BC9C869-3947-4CFA-A1A0-1F39A53A2759">
+                        <File Id="NB.PAK.INFO" Name="nb.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\nb.pak.info" />
                     </Component>
-                    <Component Id="NL.PAK" DiskId="1" Guid="C960D570-8DEF-45F9-8853-DD3FBB01899C">
-                        <File Id="NL.PAK" Name="nl.pak" Source="source_data\locales\nl.pak" />
+                    <Component Id="NL.PAK" DiskId="1" Guid="A6F68C9D-B488-4DE4-BF7D-C1301157F030">
+                        <File Id="NL.PAK" Name="nl.pak" Source="QtIFW\packages\com.vendor.root\data\locales\nl.pak" />
                     </Component>
-                    <Component Id="NL.PAK.INFO" DiskId="1" Guid="FAFC0315-2565-488C-8769-9B45593E5F8F">
-                        <File Id="NL.PAK.INFO" Name="nl.pak.info" Source="source_data\locales\nl.pak.info" />
+                    <Component Id="NL.PAK.INFO" DiskId="1" Guid="5EC0BFAD-EC35-4702-96C4-9F653A35B55F">
+                        <File Id="NL.PAK.INFO" Name="nl.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\nl.pak.info" />
                     </Component>
-                    <Component Id="PL.PAK" DiskId="1" Guid="1D2A041E-8E92-43FF-A06C-953320D944EB">
-                        <File Id="PL.PAK" Name="pl.pak" Source="source_data\locales\pl.pak" />
+                    <Component Id="PL.PAK" DiskId="1" Guid="14552BA9-4A14-4C8D-8CD3-B72F83B3ACC6">
+                        <File Id="PL.PAK" Name="pl.pak" Source="QtIFW\packages\com.vendor.root\data\locales\pl.pak" />
                     </Component>
-                    <Component Id="PL.PAK.INFO" DiskId="1" Guid="258FC0CD-35E5-43B1-98F3-32102A015FDF">
-                        <File Id="PL.PAK.INFO" Name="pl.pak.info" Source="source_data\locales\pl.pak.info" />
+                    <Component Id="PL.PAK.INFO" DiskId="1" Guid="D882581E-DF19-4E74-9A21-4154F1E02483">
+                        <File Id="PL.PAK.INFO" Name="pl.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\pl.pak.info" />
                     </Component>
-                    <Component Id="PT_BR.PAK" DiskId="1" Guid="CD14F2FB-49D7-4276-851B-9E9365FAFD32">
-                        <File Id="PT_BR.PAK" Name="pt-BR.pak" Source="source_data\locales\pt-BR.pak" />
+                    <Component Id="PT_BR.PAK" DiskId="1" Guid="A6F2E895-D0A4-401A-9001-D13EC65B0BB8">
+                        <File Id="PT_BR.PAK" Name="pt-BR.pak" Source="QtIFW\packages\com.vendor.root\data\locales\pt-BR.pak" />
                     </Component>
-                    <Component Id="PT_BR.PAK.INFO" DiskId="1" Guid="D2A200BC-E792-4F18-81FB-81F2CEC14421">
-                        <File Id="PT_BR.PAK.INFO" Name="pt-BR.pak.info" Source="source_data\locales\pt-BR.pak.info" />
+                    <Component Id="PT_BR.PAK.INFO" DiskId="1" Guid="6E37FDF7-379F-442E-AB64-64FFFC568046">
+                        <File Id="PT_BR.PAK.INFO" Name="pt-BR.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\pt-BR.pak.info" />
                     </Component>
-                    <Component Id="PT_PT.PAK" DiskId="1" Guid="F3F7C27B-16BB-445B-8DE5-C89321DB89AE">
-                        <File Id="PT_PT.PAK" Name="pt-PT.pak" Source="source_data\locales\pt-PT.pak" />
+                    <Component Id="PT_PT.PAK" DiskId="1" Guid="096A05C0-6421-409E-8EA9-52BDE8BC0BAD">
+                        <File Id="PT_PT.PAK" Name="pt-PT.pak" Source="QtIFW\packages\com.vendor.root\data\locales\pt-PT.pak" />
                     </Component>
-                    <Component Id="PT_PT.PAK.INFO" DiskId="1" Guid="9F170E21-39B0-4320-9ADC-4236C024E967">
-                        <File Id="PT_PT.PAK.INFO" Name="pt-PT.pak.info" Source="source_data\locales\pt-PT.pak.info" />
+                    <Component Id="PT_PT.PAK.INFO" DiskId="1" Guid="6E1CEE08-8641-4230-B1FA-60F74449BFED">
+                        <File Id="PT_PT.PAK.INFO" Name="pt-PT.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\pt-PT.pak.info" />
                     </Component>
-                    <Component Id="RO.PAK" DiskId="1" Guid="D4B51C05-9CA0-46FC-8C45-C4F77A221295">
-                        <File Id="RO.PAK" Name="ro.pak" Source="source_data\locales\ro.pak" />
+                    <Component Id="RO.PAK" DiskId="1" Guid="CCDF12FD-ECE5-44D3-9F4F-CCE113003083">
+                        <File Id="RO.PAK" Name="ro.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ro.pak" />
                     </Component>
-                    <Component Id="RO.PAK.INFO" DiskId="1" Guid="33823800-C0A6-4B67-908F-0DF23EED219E">
-                        <File Id="RO.PAK.INFO" Name="ro.pak.info" Source="source_data\locales\ro.pak.info" />
+                    <Component Id="RO.PAK.INFO" DiskId="1" Guid="183BFCBA-806F-485D-8687-4474078011E1">
+                        <File Id="RO.PAK.INFO" Name="ro.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ro.pak.info" />
                     </Component>
-                    <Component Id="RU.PAK" DiskId="1" Guid="883C0227-746A-4B56-8C28-14371014283D">
-                        <File Id="RU.PAK" Name="ru.pak" Source="source_data\locales\ru.pak" />
+                    <Component Id="RU.PAK" DiskId="1" Guid="12FB10C0-9E14-4A2E-8F32-6EF425DADB8D">
+                        <File Id="RU.PAK" Name="ru.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ru.pak" />
                     </Component>
-                    <Component Id="RU.PAK.INFO" DiskId="1" Guid="ADB5EEB2-E532-4214-8909-56A592218CCB">
-                        <File Id="RU.PAK.INFO" Name="ru.pak.info" Source="source_data\locales\ru.pak.info" />
+                    <Component Id="RU.PAK.INFO" DiskId="1" Guid="9F51B6B4-8883-4721-B310-E95A3791DB0B">
+                        <File Id="RU.PAK.INFO" Name="ru.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ru.pak.info" />
                     </Component>
-                    <Component Id="SK.PAK" DiskId="1" Guid="7EEBD81C-27B0-44BE-8AED-E7B7F1DB4B0B">
-                        <File Id="SK.PAK" Name="sk.pak" Source="source_data\locales\sk.pak" />
+                    <Component Id="SK.PAK" DiskId="1" Guid="56BD5DAC-29D0-49CC-958D-0B31725069AC">
+                        <File Id="SK.PAK" Name="sk.pak" Source="QtIFW\packages\com.vendor.root\data\locales\sk.pak" />
                     </Component>
-                    <Component Id="SK.PAK.INFO" DiskId="1" Guid="65238205-CE2A-4880-A00A-C033D081FF0C">
-                        <File Id="SK.PAK.INFO" Name="sk.pak.info" Source="source_data\locales\sk.pak.info" />
+                    <Component Id="SK.PAK.INFO" DiskId="1" Guid="BCF2B690-CC14-4DDC-AE36-A0D8EE0F859D">
+                        <File Id="SK.PAK.INFO" Name="sk.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\sk.pak.info" />
                     </Component>
-                    <Component Id="SL.PAK" DiskId="1" Guid="E311C17D-27A1-458A-B04B-77A4F7B5DAC8">
-                        <File Id="SL.PAK" Name="sl.pak" Source="source_data\locales\sl.pak" />
+                    <Component Id="SL.PAK" DiskId="1" Guid="4E7EE76E-920D-4EDE-9EAA-1FCED5932905">
+                        <File Id="SL.PAK" Name="sl.pak" Source="QtIFW\packages\com.vendor.root\data\locales\sl.pak" />
                     </Component>
-                    <Component Id="SL.PAK.INFO" DiskId="1" Guid="578367B1-4D46-49BF-A790-2EF0FFE296FA">
-                        <File Id="SL.PAK.INFO" Name="sl.pak.info" Source="source_data\locales\sl.pak.info" />
+                    <Component Id="SL.PAK.INFO" DiskId="1" Guid="13FF7E5B-6E83-4374-908B-5CE7E9186D02">
+                        <File Id="SL.PAK.INFO" Name="sl.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\sl.pak.info" />
                     </Component>
-                    <Component Id="SR.PAK" DiskId="1" Guid="06DF0470-9FC9-4076-B8F8-AFBDAEE1B1F1">
-                        <File Id="SR.PAK" Name="sr.pak" Source="source_data\locales\sr.pak" />
+                    <Component Id="SR.PAK" DiskId="1" Guid="6AF6C988-1DAB-4693-BE24-68FF30F3C17E">
+                        <File Id="SR.PAK" Name="sr.pak" Source="QtIFW\packages\com.vendor.root\data\locales\sr.pak" />
                     </Component>
-                    <Component Id="SR.PAK.INFO" DiskId="1" Guid="26E33AA1-B7AD-41B0-97D7-FE1BA46E0D29">
-                        <File Id="SR.PAK.INFO" Name="sr.pak.info" Source="source_data\locales\sr.pak.info" />
+                    <Component Id="SR.PAK.INFO" DiskId="1" Guid="2B45F91E-E8AB-4FA9-83B9-32FB96799F0A">
+                        <File Id="SR.PAK.INFO" Name="sr.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\sr.pak.info" />
                     </Component>
-                    <Component Id="SV.PAK" DiskId="1" Guid="D06E9AAF-EA8D-4BB9-AA1C-F50D36E56BF4">
-                        <File Id="SV.PAK" Name="sv.pak" Source="source_data\locales\sv.pak" />
+                    <Component Id="SV.PAK" DiskId="1" Guid="B84DB1C1-0BD8-4C57-B669-AC4781B5F363">
+                        <File Id="SV.PAK" Name="sv.pak" Source="QtIFW\packages\com.vendor.root\data\locales\sv.pak" />
                     </Component>
-                    <Component Id="SV.PAK.INFO" DiskId="1" Guid="DF061525-6B16-41FD-AC2B-DBED6667E021">
-                        <File Id="SV.PAK.INFO" Name="sv.pak.info" Source="source_data\locales\sv.pak.info" />
+                    <Component Id="SV.PAK.INFO" DiskId="1" Guid="7C700499-95EF-4287-AB8F-670668E5E77A">
+                        <File Id="SV.PAK.INFO" Name="sv.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\sv.pak.info" />
                     </Component>
-                    <Component Id="SW.PAK" DiskId="1" Guid="F12DC554-3E5F-4CD7-A126-C4C72D000833">
-                        <File Id="SW.PAK" Name="sw.pak" Source="source_data\locales\sw.pak" />
+                    <Component Id="SW.PAK" DiskId="1" Guid="516981E4-7AD9-42C1-AFAB-25CE7533FB4B">
+                        <File Id="SW.PAK" Name="sw.pak" Source="QtIFW\packages\com.vendor.root\data\locales\sw.pak" />
                     </Component>
-                    <Component Id="SW.PAK.INFO" DiskId="1" Guid="BB67ED57-6C0C-40F4-A6B4-24AE64AF00F3">
-                        <File Id="SW.PAK.INFO" Name="sw.pak.info" Source="source_data\locales\sw.pak.info" />
+                    <Component Id="SW.PAK.INFO" DiskId="1" Guid="3ABED3BE-C014-4152-AF81-FD679A5EA00C">
+                        <File Id="SW.PAK.INFO" Name="sw.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\sw.pak.info" />
                     </Component>
-                    <Component Id="TA.PAK" DiskId="1" Guid="E8EF2D32-2B6B-43AD-91DB-863CF7D59FBD">
-                        <File Id="TA.PAK" Name="ta.pak" Source="source_data\locales\ta.pak" />
+                    <Component Id="TA.PAK" DiskId="1" Guid="0B9E75C7-2EAD-4C45-B217-BD74EB067765">
+                        <File Id="TA.PAK" Name="ta.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ta.pak" />
                     </Component>
-                    <Component Id="TA.PAK.INFO" DiskId="1" Guid="C7D5B904-0DD1-48C9-9BD0-ADCF1CC52249">
-                        <File Id="TA.PAK.INFO" Name="ta.pak.info" Source="source_data\locales\ta.pak.info" />
+                    <Component Id="TA.PAK.INFO" DiskId="1" Guid="B20C239F-6115-4000-A86E-8ED4D2229AC3">
+                        <File Id="TA.PAK.INFO" Name="ta.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ta.pak.info" />
                     </Component>
-                    <Component Id="TE.PAK" DiskId="1" Guid="B3461A6E-5E70-443B-9E03-B761C8798167">
-                        <File Id="TE.PAK" Name="te.pak" Source="source_data\locales\te.pak" />
+                    <Component Id="TE.PAK" DiskId="1" Guid="9F31E2AE-37B1-4386-90E3-EA7667E32AE8">
+                        <File Id="TE.PAK" Name="te.pak" Source="QtIFW\packages\com.vendor.root\data\locales\te.pak" />
                     </Component>
-                    <Component Id="TE.PAK.INFO" DiskId="1" Guid="DDF48C17-B655-495F-8D37-20D869F76DE3">
-                        <File Id="TE.PAK.INFO" Name="te.pak.info" Source="source_data\locales\te.pak.info" />
+                    <Component Id="TE.PAK.INFO" DiskId="1" Guid="C47E14DF-565F-44FF-9E25-0FDB9DD9856F">
+                        <File Id="TE.PAK.INFO" Name="te.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\te.pak.info" />
                     </Component>
-                    <Component Id="TH.PAK" DiskId="1" Guid="A16D5185-B697-4B09-8BC4-756465EA5B78">
-                        <File Id="TH.PAK" Name="th.pak" Source="source_data\locales\th.pak" />
+                    <Component Id="TH.PAK" DiskId="1" Guid="D77A8F2C-3D13-4F8D-807D-E74563CB30B5">
+                        <File Id="TH.PAK" Name="th.pak" Source="QtIFW\packages\com.vendor.root\data\locales\th.pak" />
                     </Component>
-                    <Component Id="TH.PAK.INFO" DiskId="1" Guid="17DC5562-0C22-470C-BAE4-C29416AC763E">
-                        <File Id="TH.PAK.INFO" Name="th.pak.info" Source="source_data\locales\th.pak.info" />
+                    <Component Id="TH.PAK.INFO" DiskId="1" Guid="8293DE74-C514-4BAC-8D28-F7DCA75B11E1">
+                        <File Id="TH.PAK.INFO" Name="th.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\th.pak.info" />
                     </Component>
-                    <Component Id="TR.PAK" DiskId="1" Guid="3EAF6770-C73A-41FB-8464-25ACFE48F31F">
-                        <File Id="TR.PAK" Name="tr.pak" Source="source_data\locales\tr.pak" />
+                    <Component Id="TR.PAK" DiskId="1" Guid="905B4177-F8BB-4F92-AABD-FA5782AC1767">
+                        <File Id="TR.PAK" Name="tr.pak" Source="QtIFW\packages\com.vendor.root\data\locales\tr.pak" />
                     </Component>
-                    <Component Id="TR.PAK.INFO" DiskId="1" Guid="7402E3E7-C20A-4C52-99F1-C49743A64254">
-                        <File Id="TR.PAK.INFO" Name="tr.pak.info" Source="source_data\locales\tr.pak.info" />
+                    <Component Id="TR.PAK.INFO" DiskId="1" Guid="973D5861-639C-4F44-8686-B3310DE37DD4">
+                        <File Id="TR.PAK.INFO" Name="tr.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\tr.pak.info" />
                     </Component>
-                    <Component Id="UK.PAK" DiskId="1" Guid="FD0D0F1A-7DC2-4F3A-80F7-F69208907ABE">
-                        <File Id="UK.PAK" Name="uk.pak" Source="source_data\locales\uk.pak" />
+                    <Component Id="UK.PAK" DiskId="1" Guid="7B19D0D4-F6FE-4074-99E0-ADB1A25B98E0">
+                        <File Id="UK.PAK" Name="uk.pak" Source="QtIFW\packages\com.vendor.root\data\locales\uk.pak" />
                     </Component>
-                    <Component Id="UK.PAK.INFO" DiskId="1" Guid="E81543D3-B90B-4440-9733-DACA0F3994AC">
-                        <File Id="UK.PAK.INFO" Name="uk.pak.info" Source="source_data\locales\uk.pak.info" />
+                    <Component Id="UK.PAK.INFO" DiskId="1" Guid="1CB6DF09-BCA5-4A3C-BFB0-437553A037D0">
+                        <File Id="UK.PAK.INFO" Name="uk.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\uk.pak.info" />
                     </Component>
-                    <Component Id="UR.PAK" DiskId="1" Guid="146E47A7-9C0D-4947-98E6-BD9584763705">
-                        <File Id="UR.PAK" Name="ur.pak" Source="source_data\locales\ur.pak" />
+                    <Component Id="UR.PAK" DiskId="1" Guid="E86D8403-C5F9-4B47-A887-C90E1295F14D">
+                        <File Id="UR.PAK" Name="ur.pak" Source="QtIFW\packages\com.vendor.root\data\locales\ur.pak" />
                     </Component>
-                    <Component Id="UR.PAK.INFO" DiskId="1" Guid="32CFD42F-5959-49A9-830D-C95D06C5E52C">
-                        <File Id="UR.PAK.INFO" Name="ur.pak.info" Source="source_data\locales\ur.pak.info" />
+                    <Component Id="UR.PAK.INFO" DiskId="1" Guid="B87CB772-1A79-46DE-918F-6CA2173376F2">
+                        <File Id="UR.PAK.INFO" Name="ur.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\ur.pak.info" />
                     </Component>
-                    <Component Id="VI.PAK" DiskId="1" Guid="3D2427A2-9880-4EFE-8C30-0D399DC3D38C">
-                        <File Id="VI.PAK" Name="vi.pak" Source="source_data\locales\vi.pak" />
+                    <Component Id="VI.PAK" DiskId="1" Guid="70918948-46A2-4222-94D6-612CB6BDEAA8">
+                        <File Id="VI.PAK" Name="vi.pak" Source="QtIFW\packages\com.vendor.root\data\locales\vi.pak" />
                     </Component>
-                    <Component Id="VI.PAK.INFO" DiskId="1" Guid="C0C0988A-953E-45A9-8D30-3557C40369FD">
-                        <File Id="VI.PAK.INFO" Name="vi.pak.info" Source="source_data\locales\vi.pak.info" />
+                    <Component Id="VI.PAK.INFO" DiskId="1" Guid="C553B537-0D6B-47EA-AF1C-C59128E9EC41">
+                        <File Id="VI.PAK.INFO" Name="vi.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\vi.pak.info" />
                     </Component>
-                    <Component Id="ZH_CN.PAK" DiskId="1" Guid="C0AE80F7-60D6-43D8-9CAF-A5895D16B9CF">
-                        <File Id="ZH_CN.PAK" Name="zh-CN.pak" Source="source_data\locales\zh-CN.pak" />
+                    <Component Id="ZH_CN.PAK" DiskId="1" Guid="E6A12859-481D-42A9-AB14-47223AD584B2">
+                        <File Id="ZH_CN.PAK" Name="zh-CN.pak" Source="QtIFW\packages\com.vendor.root\data\locales\zh-CN.pak" />
                     </Component>
-                    <Component Id="ZH_CN.PAK.INFO" DiskId="1" Guid="EA536C7C-A7C2-46AD-9BAA-0ED76830F7D0">
-                        <File Id="ZH_CN.PAK.INFO" Name="zh-CN.pak.info" Source="source_data\locales\zh-CN.pak.info" />
+                    <Component Id="ZH_CN.PAK.INFO" DiskId="1" Guid="9B120085-63F4-4ABA-8D77-CAC3D7E5D4D4">
+                        <File Id="ZH_CN.PAK.INFO" Name="zh-CN.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\zh-CN.pak.info" />
                     </Component>
-                    <Component Id="ZH_TW.PAK" DiskId="1" Guid="2D98F510-69CC-44AB-A674-6BF5002B670C">
-                        <File Id="ZH_TW.PAK" Name="zh-TW.pak" Source="source_data\locales\zh-TW.pak" />
+                    <Component Id="ZH_TW.PAK" DiskId="1" Guid="77B9FB8F-8D40-4551-A242-0DB1E9C0C8E4">
+                        <File Id="ZH_TW.PAK" Name="zh-TW.pak" Source="QtIFW\packages\com.vendor.root\data\locales\zh-TW.pak" />
                     </Component>
-                    <Component Id="ZH_TW.PAK.INFO" DiskId="1" Guid="86719A8B-C213-45B1-B9E9-16B7D001D113">
-                        <File Id="ZH_TW.PAK.INFO" Name="zh-TW.pak.info" Source="source_data\locales\zh-TW.pak.info" />
+                    <Component Id="ZH_TW.PAK.INFO" DiskId="1" Guid="13415686-C96A-4511-A6B8-C1448DE4F7E0">
+                        <File Id="ZH_TW.PAK.INFO" Name="zh-TW.pak.info" Source="QtIFW\packages\com.vendor.root\data\locales\zh-TW.pak.info" />
                     </Component>
                 </Directory>
-                <Component Id="LICENSE" DiskId="1" Guid="657FEC19-2B3F-4837-8D4F-61FA04FF688B">
-                    <File Id="LICENSE" Name="LICENSE" Source="LICENSE" />
-                </Component>
             </Directory>
         </Directory>
         <Feature Id="DefaultFeature" Title="Main Feature" Level="1">
@@ -569,7 +563,7 @@
             <ComponentRef Id="StartMenuShortcuts" />
             <ComponentRef Id="LICENSE" />
         </Feature>
-        <UIRef Id="WixUI_FeatureTree" />        
+        <UIRef Id="WixUI_FeatureTree" />
         <!-- Define the UI with a custom license agreement -->
         <UI>
             <!-- Reference to License Agreement Dialog -->
