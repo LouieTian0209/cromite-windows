@@ -9,12 +9,13 @@
 #define MyAppAssocName MyAppName + " File"
 #define MyAppAssocExt ".myp"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
-#define MyAppSourceLocation "D:\Git Repo\cromite-windows\source_data"
+#define MyAppProjectLocation "D:\Git Repo\cromite-windows"
+#define MyAppSourceLocation MyAppProjectLocation + "\source_data"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{EE3C27B0-7199-4530-B6E6-B1BBC742AE12}
+AppId={{EE3C27B0-7199-4530-B6E6-B1BBC742AE12}}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -41,6 +42,7 @@ Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 VersionInfoVersion={#MyAppVersion}
+SetupIconFile={#MyAppProjectLocation}\app_icon.ico
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
