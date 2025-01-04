@@ -2,13 +2,14 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Cromite"
-#define MyAppVersion "129.0.6668.42"
+#define MyAppVersion "131.0.6778.205"
 #define MyAppPublisher "The Cromite Authors"
 #define MyAppURL "https://github.com/uazo/cromite"
 #define MyAppExeName "chrome.exe"
 #define MyAppAssocName MyAppName + " File"
 #define MyAppAssocExt ".myp"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
+#define MyAppSourceLocation "D:\Git Repo\cromite-windows\source_data"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
@@ -34,11 +35,12 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=C:\Data
-OutputBaseFilename=cromite-129.0.6668.42
+OutputDir=D:\
+OutputBaseFilename=cromite-{#MyAppVersion}
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
+VersionInfoVersion={#MyAppVersion}
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
@@ -47,8 +49,8 @@ Name: "english"; MessagesFile: "compiler:Default.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Data\Downloads\chrome-win\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Data\Downloads\chrome-win\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#MyAppSourceLocation}\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyAppSourceLocation}\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Registry]
