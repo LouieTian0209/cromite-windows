@@ -26,63 +26,39 @@
 **
 ****************************************************************************/
 
-function Controller() {
-    installer.setDefaultPageWidget(QInstaller.Introduction);
-    installer.setPageVisible(QInstaller.Introduction, true);
-    installer.setPageVisible(QInstaller.LicenseAgreement, true);
-    installer.setPageVisible(QInstaller.TargetDirectory, true);
-    installer.setPageVisible(QInstaller.ReadyForInstallation, true);
-    installer.setPageVisible(QInstaller.Installation, true);
-    
-    // Check if we are on Windows
-    if (installer.platform() === "windows") {
-        // Create a desktop shortcut
-        createDesktopShortcut();
-        // Create a start menu shortcut
-        createStartMenuShortcut();
+function Component() {
+    // Default constructor
+}
+
+Component.prototype.createOperations = function() {
+    // Call default operations (like installing the files)
+    component.createOperations();
+
+    if (systemInfo.productType === "windows") {
+        // Define the target executable for the shortcut
+        var targetExecutable = "@TargetDir@/chrome.exe";  // Your application's executable
+        
+        // Define the custom icon path (using chrome.exe as the icon)
+        var customIconPath = "@TargetDir@/chrome.exe";  // Using chrome.exe as the icon
+        
+        // Define other shortcut parameters (working directory, description, etc.)
+        var workingDir = "@TargetDir@";  // Set working directory to the installation directory
+        var description = "Launch Cromite"; // Description that appears for the shortcut
+        
+        // Create Start Menu Shortcut
+        var startMenuShortcut = "@StartMenuDir@/Cromite.lnk"; // The shortcut file in Start Menu
+        component.addOperation("CreateShortcut", targetExecutable, startMenuShortcut,
+            "workingDirectory=" + workingDir,
+            "iconPath=" + customIconPath,  // Using chrome.exe as the icon
+            "iconId=0",  // No icon ID, because we're using an EXE file's icon
+            "description=" + description);
+
+        // Create Desktop Shortcut
+        var desktopShortcut = "@DesktopDir@/Cromite.lnk"; // The shortcut file on the desktop
+        component.addOperation("CreateShortcut", targetExecutable, desktopShortcut,
+            "workingDirectory=" + workingDir,
+            "iconPath=" + customIconPath,  // Using chrome.exe as the icon
+            "iconId=0",  // No icon ID, because we're using an EXE file's icon
+            "description=" + description);
     }
-}
-
-// Function to create a desktop shortcut
-function createDesktopShortcut() {
-    var desktopPath = QStandardPaths.writableLocation(QStandardPaths.DesktopLocation);
-    
-    // Define the path to your application executable
-    var targetPath = installer.value("TargetDir") + "/chrome.exe"; // Application executable
-    
-    // Create the shortcut
-    var shortcut = new QProcess();
-    var args = [];
-    
-    // For Windows, use "cmd.exe /C" to create a shortcut using Windows Script Host
-    args.push('/C', 'mkshortcut');
-    args.push('/F:' + desktopPath + "/Cromite.lnk");
-    args.push('/A:C');
-    args.push('/T:' + targetPath);
-    
-    // Execute the process to create the shortcut
-    shortcut.start("cmd.exe", args);
-    shortcut.waitForFinished();
-}
-
-// Function to create a start menu shortcut
-function createStartMenuShortcut() {
-    var startMenuDir = installer.value("StartMenuDir"); // Folder for Start Menu
-    var targetPath = installer.value("TargetDir") + "/cromite.exe"; // Application executable
-    
-    // Create the Start Menu shortcut
-    var shortcut = new QProcess();
-    var args = [];
-
-    // For Windows, use "cmd.exe /C" to create a shortcut using Windows Script Host
-    args.push("cmd.exe");
-    args.push("/C");
-    args.push("mkshortcut");
-    args.push("/F:" + startMenuDir + "/Cromite.lnk"); // The shortcut filename
-    args.push("/A:C");
-    args.push("/T:" + targetPath);
-    
-    // Execute the process to create the shortcut
-    shortcut.start("cmd.exe", args);
-    shortcut.waitForFinished();
 }

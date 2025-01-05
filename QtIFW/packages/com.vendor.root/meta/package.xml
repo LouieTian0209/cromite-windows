@@ -7,6 +7,6 @@
     <Licenses>
         <License name="GNU GENERAL PUBLIC LICENSE Version 3" file="LICENSE" />
     </Licenses>
-    <Default>script</Default>
+    <Default>true</Default>
     <Script>installscript.qs</Script>
 </Package>
