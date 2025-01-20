@@ -2,15 +2,14 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Cromite"
-#define MyAppVersion "131.0.6778.205"
+#define MyAppVersion "132.0.6834.83"
 #define MyAppPublisher "The Cromite Authors"
 #define MyAppURL "https://github.com/uazo/cromite"
 #define MyAppExeName "chrome.exe"
 #define MyAppAssocName MyAppName + " File"
 #define MyAppAssocExt ".myp"
 #define MyAppAssocKey StringChange(MyAppAssocName, " ", "") + MyAppAssocExt
-#define MyAppProjectLocation "D:\Git Repo\cromite-windows"
-#define MyAppSourceLocation MyAppProjectLocation + "\QtIFW\packages\com.vendor.root\data"
+#define MyAppSourceLocation SourcePath + "QtIFW\packages\com.vendor.root\data"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
@@ -36,13 +35,14 @@ ChangesAssociations=yes
 DisableProgramGroupPage=yes
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
-OutputDir=D:\
+OutputDir={#SourcePath}
 OutputBaseFilename=cromite-{#MyAppVersion}
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 VersionInfoVersion={#MyAppVersion}
-SetupIconFile={#MyAppProjectLocation}\app_icon.ico
+SetupIconFile={#SourcePath}app_icon.ico
+LicenseFile={#SourcePath}LICENSE
 
 [Languages]
 Name: "english"; MessagesFile: "compiler:Default.isl"
