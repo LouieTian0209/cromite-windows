@@ -1,7 +1,7 @@
 # Cromite
 
 <a href="https://www.cromite.org">
-  <img title="Cromite - take back your browser!" src="https://www.cromite.org/app_icon.png" width="96" alt="Bromite" />
+  <img title="Cromite - take back your browser!" src="https://raw.githubusercontent.com/LouieTian0209/cromite-windows/refs/heads/main/app_icon.ico" width="96" alt="Cromite" />
 </a>
 <br>
 
