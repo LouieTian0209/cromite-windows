@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Cromite"
-#define MyAppVersion "136.0.7103.125"
+#define MyAppVersion "137.0.7151.56"
 #define MyAppPublisher "The Cromite Authors"
 #define MyAppURL "https://github.com/uazo/cromite"
 #define MyAppExeName "chrome.exe"

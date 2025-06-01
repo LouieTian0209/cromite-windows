@@ -2,8 +2,8 @@
 <Package>
     <DisplayName>Cromite</DisplayName>
     <Description>Install Cromite Browser</Description>
-    <Version>136.0.7103.125</Version>
-    <ReleaseDate>2025-05-20</ReleaseDate>
+    <Version>137.0.7151.56</Version>
+    <ReleaseDate>2025-06-02</ReleaseDate>
     <Licenses>
         <License name="GNU GENERAL PUBLIC LICENSE Version 3" file="LICENSE" />
     </Licenses>

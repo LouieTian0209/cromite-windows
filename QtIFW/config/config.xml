@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Installer>
     <Name>Cromite</Name>
-    <Version>136.0.7103.125</Version>
+    <Version>137.0.7151.56</Version>
     <Title>Cromite Installer</Title>
     <Publisher>The Cromite Authors</Publisher>
     <StartMenuDir>Cromite</StartMenuDir>

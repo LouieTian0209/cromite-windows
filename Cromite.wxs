@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
-    <Product Id="EE3C27B0-7199-4530-B6E6-B1BBC742AE12" Name="Cromite" Language="1033" Version="136.0.7103.125" Manufacturer="The Cromite Authors" UpgradeCode="37AC5B86-6A6E-4AC5-9504-46F761124BFF">
+    <Product Id="EE3C27B0-7199-4530-B6E6-B1BBC742AE12" Name="Cromite" Language="1033" Version="137.0.7151.56" Manufacturer="The Cromite Authors" UpgradeCode="37AC5B86-6A6E-4AC5-9504-46F761124BFF">
         <Package Description="Cromite MSI Installation Package" Comments="Cromite Installer" InstallerVersion="200" Compressed="yes" />
         <Media Id="1" Cabinet="simple.cab" EmbedCab="yes" />
         <Directory Id="TARGETDIR" Name="SourceDir">
@@ -22,8 +22,8 @@
                 </Component>
             </Directory>
             <Directory Id="DATA" Name="data">
-                <Component Id="_136.0.7103.125.MANIFEST" DiskId="1" Guid="E5A2503D-F911-40B8-8A25-0FBA33F84DC4">
-                    <File Id="_136.0.7103.125.MANIFEST" Name="136.0.7103.125.manifest" Source="QtIFW\packages\com.vendor.root\data\136.0.7103.125.manifest" />
+                <Component Id="_137.0.7151.56.MANIFEST" DiskId="1" Guid="E5A2503D-F911-40B8-8A25-0FBA33F84DC4">
+                    <File Id="_137.0.7151.56.MANIFEST" Name="137.0.7151.56.manifest" Source="QtIFW\packages\com.vendor.root\data\137.0.7151.56.manifest" />
                 </Component>
                 <Component Id="CHROME.DLL" DiskId="1" Guid="EFB4AE2B-1C51-4811-8F32-0EA68074F2F2">
                     <File Id="CHROME.DLL" Name="chrome.dll" Source="QtIFW\packages\com.vendor.root\data\chrome.dll" />
@@ -570,7 +570,7 @@
             <ComponentRef Id="ZH_TW.PAK" />
             <ComponentRef Id="ZH_TW.PAK.INFO" />
             <ComponentRef Id="LICENSE" />
-            <ComponentRef Id="_136.0.7103.125.MANIFEST" />
+            <ComponentRef Id="_137.0.7151.56.MANIFEST" />
             <ComponentRef Id="StartMenuShortcuts" />
             <ComponentRef Id="DesktopShortcut" />
         </Feature>
